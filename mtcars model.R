@@ -30,4 +30,4 @@ summary(fit_final)
 anova(fit_base, fit_final)
 # visualization
 par(mfrow = c(2, 2))
-plot(better_fit)
+plot(fit_final)
